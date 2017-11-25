@@ -1,0 +1,44 @@
+{
+  "name": "react-apollo-github-api-infinite-scroll-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React Apollo GitHub GraphQL API infinite scroll example code",
+  "scripts": {
+    "test": "npm run eslint",
+    "eslint": "eslint --ext .js,.jsx .",
+    "start": "node src/server",
+    "build": "express-react-redux build-client"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.0",
+    "apollo-client": "^2.0.3",
+    "apollo-link-http": "^1.2.0",
+    "express": "^4.16.2",
+    "express-react-redux": "^0.5.2",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "react": "^16.1.1",
+    "react-apollo": "^2.0.1",
+    "react-compose-state": "^1.1.0",
+    "react-dom": "^16.1.1",
+    "react-infinite-scroller": "^1.1.1",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": [
+      "airbnb"
+    ],
+    "rules": {
+      "global-require": 0,
+      "react/prop-types": 0
+    }
+  }
+}
