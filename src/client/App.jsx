@@ -38,7 +38,7 @@ const RepoList = ({
 };
 
 const QUERY_REPOS = gql`
-query ($q: String!, $end: String){
+query ($q: String!, $end: String) {
   search(first: 20, type: REPOSITORY, query: $q, after: $end) {
     nodes {
       ... on Repository {
